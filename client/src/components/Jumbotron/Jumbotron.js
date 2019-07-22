@@ -4,7 +4,7 @@ import "./Jumbotron.css";
 const Jumbotron = ({ children }) => (
   <div className="jumbotron jumbotron-fluid">
     <div 
-      style={{ height: 150, clear: "both", paddingTop: 10, paddingBottom: 20, textAlign: "Center"}}
+      style={{ height: 200, clear: "both", paddingTop: 10, paddingBottom: 20, textAlign: "Center"}}
       className="container">
       {children}
     </div>
