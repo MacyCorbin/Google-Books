@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url("https://www.incimages.com/uploaded_files/image/1940x900/getty_960610660_20001333181884380490_365559.jpg");
-    /* background-size: cover; */
+    background-image: url("books.jpg");
+    background-size: cover;
     color: white;
 }
