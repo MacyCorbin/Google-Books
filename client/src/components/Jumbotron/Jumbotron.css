@@ -2,4 +2,5 @@
     background-image: url("books.jpg");
     background-size: cover;
     color: white;
+    text-decoration: none;
 }
