@@ -5,6 +5,8 @@
 
 }
 
-.btnColor :hover{
+.btnColor:hover{
     color: white;
+    background-color: rgb(33, 63, 117);
+    border: solid 2px rgb(33, 63, 117);
 }

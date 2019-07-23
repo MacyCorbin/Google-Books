@@ -49,8 +49,8 @@ class Results extends Component {
             <p className="lead">Search and save books of your interest.</p>
             <hr className="my-4" />
             <p className="lead">
-              <Link className="btn btn-default btn-lg" to="/" role="button">New Search</Link>
-              <Link className="btn btn-default btn-lg" to="/saved" role="button">Saved Books</Link>
+              <Link className="btn btnText1 btn-default btn-lg" to="/" role="button">New Search</Link>
+              <Link className="btn btnText2 btn-default btn-lg" to="/saved" role="button">Saved Books</Link>
             </p>
           </Jumbotron>
           <Container>
@@ -66,8 +66,8 @@ class Results extends Component {
           <p className="lead">Search and save books of your interest.</p>
           <hr className="my-4" />
           <p className="lead">
-            <Link className="btn btn-default btn-lg" to="/" role="button">New Search</Link>
-            <Link className="btn btn-default btn-lg" to="/saved" role="button">Saved Books</Link>
+            <Link className="btn btnText1 btn-default btn-lg" to="/" role="button">New Search</Link>
+            <Link className="btn btnText2 btn-default btn-lg" to="/saved" role="button">Saved Books</Link>
           </p>
         </Jumbotron>
         <Container>
