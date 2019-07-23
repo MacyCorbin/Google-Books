@@ -1,7 +1,7 @@
 .jumbotron {
     background-image: url("books.jpg");
     background-size: cover;
-    color: #2A3852;
+    color: rgb(33, 63, 117);
     text-decoration: none;
 }
 
@@ -16,6 +16,6 @@
 
 }
 
-.lead{
-    color: #2A3852;
+.jumbotron p{
+    color: rgb(33, 63, 117);
 }
