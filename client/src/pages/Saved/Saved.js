@@ -63,8 +63,8 @@ class Saved extends Component {
     return (
       <div>
         <Jumbotron>
-          <h1 className="display-4">(React) Google Books Search</h1>
-          <p className="lead">Search for and save books of interest.</p>
+          <h1 className="display-4">Biblio Search</h1>
+          <p className="lead">Search and save books of your interest.</p>
           <hr className="my-4" />
           <p className="lead">
             <Link className="btn btn-default btn-lg" to="/" role="button">New Search</Link>
