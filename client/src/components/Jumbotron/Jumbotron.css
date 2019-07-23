@@ -17,6 +17,24 @@
 }
 
 
-.btnText{
+.btnText1{
     color: white;
+    background-color: #38C790;
+    margin-right: 20px;
+}
+
+.btnText2{
+    color: white;
+    background-color: #38C790;
+}
+
+.btnText1:hover{
+    color: white;
+    background-color: rgb(33, 63, 117);
+    margin-right: 20px;
+}
+
+.btnText2:hover{
+    color: white;
+    background-color: rgb(33, 63, 117);
 }
