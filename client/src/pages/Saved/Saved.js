@@ -49,9 +49,9 @@ class Saved extends Component {
             <h1 className="display-4">Biblio Search</h1>
             <p className="lead">Search and save books of your interest.</p>
             <hr className="my-4" />
-            <p className="lead" style={{ color:rgb(33, 63, 117) }}>
-              <Link className="btn btn-default btn-lg" to="/" role="button">New Search</Link>
-              <Link className="btn btn-default btn-lg" to="/saved" role="button">Saved Books</Link>
+            <p className="lead">
+              <Link className="btn btnText btn-default btn-lg" to="/" role="button">New Search</Link>
+              <Link className="btn btnText btn-default btn-lg" to="/saved" role="button">Saved Books</Link>
             </p>
           </Jumbotron>
           <Container>

@@ -17,5 +17,9 @@
 }
 
 .jumbotron p{
-    color: rgb(33, 63, 117);
+    color: #213f75;
+}
+
+.btnText{
+    color: #213f75;
 }
