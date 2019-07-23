@@ -1,7 +1,7 @@
 .jumbotron {
     background-image: url("books.jpg");
     background-size: cover;
-    color: white;
+    color: #2A3852;
     text-decoration: none;
 }
 
@@ -14,4 +14,8 @@
 .jumbotron hr{
     border-top: 0px;
 
+}
+
+.lead{
+    color: #2A3852;
 }
