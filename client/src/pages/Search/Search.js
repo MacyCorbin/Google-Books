@@ -49,7 +49,8 @@ class Search extends Component {
     return (
       <div>
         <Jumbotron>
-          <h1 className="display-4">Biblio Search</h1>
+          {/* <h1 className="display-4">Biblio Search</h1> */}
+          <img src="../images/BiblioSearch.png" alt="Biblio Search" width="200" height="100"></img>
           <p className="lead">Search and save books of your interest.</p>
           <hr className="my-4" />
           <p className="lead">
