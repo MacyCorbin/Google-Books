@@ -5,6 +5,7 @@ import { List, ListItem } from "../../components/List";
 import Jumbotron from "../../components/Jumbotron";
 import API from "../../utils/API";
 import BookButton from "../../components/BookButton";
+// import Footer from "../../components/Footer";
 
 class Saved extends Component {
   state = {
@@ -58,6 +59,9 @@ class Saved extends Component {
           <Container>
             <Link to="/">You have no saved books. Click here to find some.</Link>
           </Container>
+          {/* <Footer>
+            <a  className = "text" href="https://github.com/MacyCorbin/Matching-Marvel.git">Macy's GitHub</a>
+        </Footer> */}
         </div>
       )
     }
@@ -109,6 +113,9 @@ class Saved extends Component {
             ))}
           </List>
         </Container>
+        {/* <Footer>
+            <a  className = "text" href="https://github.com/MacyCorbin/Matching-Marvel.git">Macy's GitHub</a>
+        </Footer> */}
       </div>
     );
   }

@@ -4,6 +4,8 @@ import Jumbotron from "../../components/Jumbotron";
 import API from "../../utils/API";
 import { Container } from "../../components/Contents";
 import { Input, FormButton } from "../../components/Form";
+// import Footer from "../../components/Footer";
+
 
 class Search extends Component {
   state = {
@@ -47,7 +49,7 @@ class Search extends Component {
       }} />
     }
     return (
-      <div>
+      <div className= "height">
         <Jumbotron>
           {/* <h1 className="display-4">Biblio Search</h1> */}
           <img src={require('../BiblioSearch.png')} />
@@ -75,6 +77,9 @@ class Search extends Component {
             </FormButton>
           </form>
         </Container>
+        {/* <Footer>
+            <a  className = "text" href="https://github.com/MacyCorbin/Matching-Marvel.git">Macy's GitHub</a>
+        </Footer> */}
       </div>
     );
   }

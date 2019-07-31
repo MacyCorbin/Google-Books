@@ -5,6 +5,8 @@ import { List, ListItem } from "../../components/List";
 import BookButton from "../../components/BookButton";
 import Jumbotron from "../../components/Jumbotron";
 import API from "../../utils/API";
+// import Footer from "../../components/Footer";
+
 
 class Results extends Component {
   state = {
@@ -57,6 +59,9 @@ class Results extends Component {
           <Container>
             <Link to="/">No results - click here to search again.</Link>
           </Container>
+          {/* <Footer>
+            <a  className = "text" href="https://github.com/MacyCorbin/Matching-Marvel.git">Macy's GitHub</a>
+          </Footer> */}
         </div>
       )
     }
@@ -114,6 +119,9 @@ class Results extends Component {
             ))}
           </List>
         </Container>
+        {/* <Footer>
+            <a  className = "text" href="https://github.com/MacyCorbin/Matching-Marvel.git">Macy's GitHub</a>
+        </Footer> */}
       </div>
     );
   }
