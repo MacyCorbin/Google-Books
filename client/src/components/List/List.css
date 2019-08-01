@@ -2,10 +2,12 @@
     border-bottom: 1px darkgray solid;
     border-top: 1px darkgray solid;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
   
 .list-overflow-container ul {
     margin: 0;
+    
 }
   
 .list-overflow-container li {
@@ -24,6 +26,7 @@
   
 .list-overflow-container li:last-child {
     border-bottom: none;
+    margin-bottom: 30px;
 }
   
 .date-div {

@@ -4,10 +4,8 @@ import "./Footer.css";
 
 
 const Footer = () => (
-	<footer className = "footer">
-		<div className = "container-fluid text-center">
-        <a  className = "text" href="https://github.com/MacyCorbin/Google-Books.git">Macy's GitHub</a>
-		</div>	
+	<footer className = "footer navbar-fixed-bottom">
+        	<a  className = "text" href="https://github.com/MacyCorbin/Google-Books.git">Macy's GitHub</a>	
 	</footer>
 );
 

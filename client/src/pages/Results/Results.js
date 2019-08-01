@@ -5,7 +5,8 @@ import { List, ListItem } from "../../components/List";
 import BookButton from "../../components/BookButton";
 import Jumbotron from "../../components/Jumbotron";
 import API from "../../utils/API";
-// import Footer from "../../components/Footer";
+import Footer from "../../components/Footer";
+import "../Titles.css"
 
 
 class Results extends Component {
@@ -59,10 +60,11 @@ class Results extends Component {
           <Container>
             <Link to="/">No results - click here to search again.</Link>
           </Container>
-          {/* <Footer>
-            <a  className = "text" href="https://github.com/MacyCorbin/Matching-Marvel.git">Macy's GitHub</a>
-          </Footer> */}
+          <Footer />
+        
+          
         </div>
+        
       )
     }
     return (
@@ -118,10 +120,10 @@ class Results extends Component {
               </ListItem>
             ))}
           </List>
+         
         </Container>
-        {/* <Footer>
-            <a  className = "text" href="https://github.com/MacyCorbin/Matching-Marvel.git">Macy's GitHub</a>
-        </Footer> */}
+        <Footer />
+        
       </div>
     );
   }

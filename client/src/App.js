@@ -8,17 +8,20 @@ import Footer from "./components/Footer"
 
 const App = () => (
   <Router>
-    <div style={{height:"90%"}}>
-      <Switch>
-        <Route exact path="/" component={Search} />
-        <Route exact path="/results" component={Results} />
-        <Route exact path="/saved" component={Saved} />
-        <Route component={NoMatch} />
-      </Switch>
-      
+    <div style={{height:"100%"}}>
+
+        <Switch>
+          <Route exact path="/" component={Search} />
+          <Route exact path="/results" component={Results} />
+          <Route exact path="/saved" component={Saved} />
+          <Route component={NoMatch} />
+        </Switch> 
     </div>
     <Footer />
+    
   </Router>
 );
 
 export default App;
+
+// 
